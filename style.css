@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(112, 136, 171);
+    
+}
+h1{
+    background-color: rgb(230,230,250);
+    color: rgb(42, 56, 76);
+}
+#show_sketch{
+    float:left
+}
+canvas{
+    border:5px solid white ;
+    border-radius: 20px;
+    animation-name: abc;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes abc{
+    from{box-shadow: 1px 1px 38px rgb(0, 238, 255);}
+    to{box-shadow: 1px 1px 38px rgb(255, 0, 230)}
+}
